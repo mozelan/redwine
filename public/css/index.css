@@ -1,0 +1,354 @@
+a,a:hover,a:focus{
+    text-decoration:none;
+    color:#dbc7c3;
+}
+.banner{
+    position:relative;
+    overflow:hidden;
+}
+.banner video{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    z-index:0;
+    overflow:hidden;
+}
+.banner .products{
+    /*margin-top:20px;*/
+    padding:20px 40px;
+    vertical-align: middle;
+}
+.banner .products .intro{
+    color:#fff;
+}
+.banner .products .intro h1{
+    font-size:56px;
+    font-style:italic;
+    font-weight: bold;
+    font-family: times new roman;
+}
+.banner .products .intro p{
+    line-height:2;
+}
+.banner .products .intro a{
+    display:block;
+    width:200px;
+    height:60px;
+    text-align:center;
+    line-height:60px;
+    margin-top:60px;
+    background:#7C2020;
+    border:1px solid transparent;
+}
+.banner .products .intro a:hover{
+    background:rgb(102, 1, 1);
+}
+@media only screen and (min-width: 678px) {
+    .banner .products .intro{
+        margin-top:80px;
+    }
+}
+@media only screen and (max-width: 677px){
+    .banner .products .intro h1{
+        font-size:32px;
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width: 767px){
+    .banner .products .intro a{
+        margin-top:30px;
+        margin-bottom:20px;
+    }
+}
+.introduce{
+    background:#560000;
+    color:#fff;
+}
+.introduce h1{
+    font-family: times new roman;
+    font-size:48px;
+}
+.introduce p.line{
+    border-bottom:1px solid #fff;
+    width:250px;
+    margin:20px auto;
+}
+.introduce b.star{
+    position:relative;
+    top:-30px;
+    background:#560000;
+    padding:0 10px;
+    margin-bottom:20px;
+}
+@media only screen and (max-width: 677px){
+    .introduce h1{
+        font-size:28px;
+    }
+}
+.introduce .container{
+    position: relative;
+    overflow:hidden;
+}
+.introduce .img-intro-wine{
+    overflow:hidden;
+    position: relative;
+}
+.introduce .img-intro-wine>div>h1{
+    position: absolute;
+    top:15%;
+    left:15%;
+}
+.introduce .img-intro-wine>div>a{
+    position: absolute;
+    top:40%;
+    left:50%;
+    padding:10px 30px;
+    border:1px solid #fff;
+    background:transparent;
+}
+.introduce .img-intro-wine>img{
+    height:800px;
+}
+.introduce .img-tech{
+    box-sizing:border-box;
+}
+.introduce .img-tech>img{
+    border:8px solid #fff;
+    padding:0;
+    margin:0;
+
+}
+@media only screen and (min-width: 992px) {
+    .introduce .img-tech{
+        position: absolute;
+        top:25%;
+        left:50%;
+    }
+}
+@media only screen and (max-width: 991px){
+    .introduce .img-tech{
+        position: absolute;
+        bottom:1%;
+        right:0;
+        padding:0;
+        margin:0;
+    }
+}
+
+.product-all{
+    background:#fff;
+    color:#560000;
+}
+.product-all h1{
+    font-family: times new roman;
+    font-size:48px;
+}
+.product-all p.line{
+    border-bottom:1px solid #560000;
+    width:250px;
+    margin:20px auto;
+}
+.product-all b.star{
+    position:relative;
+    top:-30px;
+    background:#fff;
+    padding:0 10px;
+    margin-bottom:20px;
+    color:#560000;
+}
+.product-all .details{
+    width:95%;
+    border:1px solid #ddd;
+    margin-bottom:30px;
+    transition:all 0.5s ease;
+    overflow: hidden;
+}
+
+.product-all .details .title{
+    display:block;
+    background:none;
+    color:#999999;
+    font-size:15px;
+    margin-top:20px;
+}
+.product-all .details hr{
+    width:0;
+    transform-origin:0;
+    transition:all 0.5s linear;
+    margin:10px 0;
+}
+.product-all .details .img-del>img{
+    transition:all 0.5s linear;
+}
+.product-all .details .price{
+    padding:0 20px;
+    color:#666668;
+    margin-bottom:20px;
+}
+.product-all .details:hover{
+    box-shadow:2px 5px 30px 5px #ddd;
+    transform: translate(0,-3px);
+}
+.product-all .details:hover>.title{
+    color:#555555;
+}
+.product-all .details:hover>hr{
+    transform-origin:0;
+    width:100%;
+}
+.product-all .details:hover>a>img{
+    transform: scale(1.05);
+}
+.product-all .btnInto{
+    padding:15px 60px;
+    border-radius:0;
+    background: transparent;
+    color:rgb(86, 24, 26);
+    border-color: rgb(86, 24, 26);
+    margin-bottom:60px;
+}
+.pic-float{
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    color:#fff;
+    text-align: center;
+    line-height:30px;
+    font-size: 15px;
+}
+.pic-float .red-show h4{
+    font-family:times new roman;
+    font-size:42px;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 992px){
+    .pic-float .pic-show{
+        background: url(../img/index/intro_wine1.jpg) center 65%;
+        background-size:cover;
+        height:100%;
+        min-height: 750px;
+    }
+    .pic-float .red-show{
+        position:absolute;
+        right:0;
+        top:0;
+        width:50%;
+        background:#550000;
+        height:100%;
+        z-index:50;
+    }
+    .pic-float .red-show h4{
+        margin-top:70%;
+    }
+
+}
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    .pic-float .pic-show{
+        background: url(../img/index/intro_wine1.jpg) left center;
+        background-size:cover;
+        height: 745px;
+    }
+    .pic-float .red-show{
+        position:absolute;
+        right:5%;
+        bottom:0;
+        width:90%;
+        background:rgba(94,0,0,0.9);
+        height:443px;
+        z-index:50;
+    }
+    .pic-float .red-show h4{
+        margin-top:30%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .pic-float .pic-show{
+        background: url(../img/index/intro_wine1.jpg) left center;
+        background-size:cover;
+        height: 400px;
+    }
+    .pic-float .red-show{
+        position:absolute;
+        top:0;
+        width:100%;
+        background:rgba(94,0,0,0.9);
+        height:157px;
+        z-index:50;
+    }
+    .pic-float .red-show h4{
+        font-size: 36px;
+        margin-top:5%;
+    }
+}
+
+
+
+.news-container{
+    background-image:url(../img/index/news_bac.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    min-height:564px;
+    position:relative;
+    color:#fff;
+}
+.news-container .new-list h1{
+    font-family: times new roman;
+    font-size:48px;
+    margin-top:60px;
+}
+.news-container .new-list p.line{
+    border-bottom:1px solid #fff;
+    width:250px;
+    margin:20px auto;
+}
+.news-container .new-list b.star{
+    position:relative;
+    top:-30px;
+    background:#000000;
+    padding:0 10px;
+}
+.news-container .new-list ul{
+    margin-top:30px;
+}
+.news-container .new-list ul>li{
+    padding:40px 0 ;
+    line-height:30px;
+    background:rgba(255,255,255,0.1);
+    border-bottom:1px solid #333333;
+    transition: all .3s linear;
+}
+.news-container .new-list ul>li>div{
+    transition: all .3s linear;
+}
+.news-container .new-list ul>li:hover{
+    background: transparent;
+}
+.news-container .new-list ul>li:hover>div{
+    transform: translate(-20px ,0);
+}
+.news-container .new-list  .month-date{
+    font-size:36px;
+    vertical-align: bottom;
+    display:inline-block;
+    margin-top:22px;
+}
+.news-container .new-list>a{
+    padding:15px 60px;
+    border:1px solid #fff;
+    font-size:18px;
+    margin:40px auto;
+}
+.news-container .new-list>a:hover{
+    border:1px solid rgb(136,136,136);
+    color:rgb(136,136,136);
+}
+.navbar .navbar-floor3 .nav li:first-child{
+    background:#5E0000 !important;
+}
+
+
+
+

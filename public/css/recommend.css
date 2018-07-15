@@ -1,0 +1,21 @@
+.recommend .title{
+    font-family:times new roman;
+    font-size:48px;
+    color:#000;
+    margin-bottom:0;
+}
+.recommend .sub-title{
+    margin-bottom:20px;
+}
+.recommend .details{
+    margin:20px 0;
+}
+.recommend p:last-child{
+    margin-bottom:50px;
+}
+.navbar .navbar-floor3 .nav li{
+    background:#510000;
+}
+.navbar .navbar-floor3 .nav li:nth-child(4){
+    background:#5E0000;
+}

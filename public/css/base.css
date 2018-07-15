@@ -1,0 +1,36 @@
+body{
+	margin:auto;
+	font:12px "微软雅黑";
+	color:#494949;
+	background:#fff;
+}
+h1,h2,h3,h4,h5,h6,p,pre,ul,ol,li,dl,dd,body{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.main{
+	width:1200px;
+	margin:0 auto;
+}
+a{
+	text-decoration:none;
+	color:#025EB0;
+}
+a:hover{
+	cursor:pointer;
+}
+img{
+	vertical-align:middle;
+}
+.lf{
+	float:left;
+}
+.rf{
+	float:right;
+}
+.clear:after{
+	display:block;
+	content:"";
+	clear:both;
+}

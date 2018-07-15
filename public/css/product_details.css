@@ -1,0 +1,231 @@
+.product-details .dels-nav{
+    margin-top:30px;
+    font-size:13px;
+    color:#666;
+}
+.product-details .dels-main{
+    margin-top:20px;
+    border:1px solid #ddd;
+    border-top:none;
+    box-shadow: 0 3px 2px;
+}
+.product-details .dels-main .img-md{
+    border:1px solid #ddd;
+    position:relative;
+    box-sizing:border-box !important;
+    margin:20px auto;
+}
+.product-details .dels-main .img-md>img{
+    margin:auto;
+}
+.product-details .dels-main .img-md .img-lg{
+    position:absolute;
+    top:-1px;
+    left:101%;
+    width:101%;
+    height:101%;
+    border:1px solid #ddd;
+    background: #fff url(../img/product_list/lg.jpg) no-repeat center center;
+    z-index:10;
+    display:none;
+}
+.product-details .dels-main .img-mask{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    opacity: 0;
+    z-index:10;
+}
+.product-details .dels-main .mask{
+    position:absolute;
+    top:0;
+    left:0;
+    width:50%;
+    height:50%;
+    background:rgba(100,100,100,0.5);
+    display:none;
+}
+.product-details  .dels-main .dels-content>h3{
+    display:inline-block;
+    font-size:20px;
+    color:#0c0c0c;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    padding-bottom:15px;
+    border-bottom:3px solid #999;
+}
+.product-details  .dels-main .dels-content>p{
+    color:#999;
+    font-size:12px;
+}
+.product-details  .dels-main .dels-content>p.price{
+    font-size:28px;
+    color:#dd3333;
+    margin-top:30px;
+    margin-bottom:20px;
+
+}
+.product-details  .dels-main .dels-content>p.pro-assort{
+    height:36px;
+    line-height:36px;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    margin-bottom:20px;
+}
+.product-details  .dels-main .dels-content>.add-cart{
+    height:40px;
+    line-height:40px;
+}
+.product-details  .dels-main .dels-content>.add-cart>a{
+    display:inline-block;
+    width:50%;
+    text-align: center;
+    background:#5e0000;
+}
+.product-details  .dels-main .dels-content>.add-cart>b{
+    display: inline-block;
+    border:1px solid #ddd;
+    margin-left:20px;
+}
+.product-details  .dels-main .dels-content>.add-cart>b>span{
+    display: inline-block;
+    height:40px;
+    line-height:40px;
+    width:40px;
+    box-sizing:border-box;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+.product-details  .dels-main .dels-content>.add-cart>b>span:hover{
+    cursor: pointer;
+}
+.product-details  .dels-main .dels-content>.add-cart>b>input{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    box-sizing: border-box;
+    outline:none;
+    border:none;
+    border-left:1px solid #ddd;
+    border-right:1px solid #ddd;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+.product-details  .dels-main .dir-user .dir-menu{
+    border-top:1px solid #ddd;
+    height:60px;
+    line-height:60px;
+    box-sizing: border-box;
+    margin-top:30px;
+}
+.product-details  .dels-main .dir-user .dir-menu>li{
+    width:120px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.product-details  .dels-main .dir-user .dir-menu>li:hover{
+    cursor: pointer;
+}
+.product-details  .dels-main .dir-user .dir-menu>li.active{
+    border-top:3px solid #ddd;
+}
+.product-details  .dels-main .dir-user .dir-content>li{
+    margin:30px 10px;
+    display:none;
+}
+.product-details  .dels-main .dir-user .dir-content>li.active{
+    display:block;
+}
+.product-details  .dels-main .dir-user .dir-content .dir-details>img{
+    margin-bottom:10px;
+}
+.product-details  .dels-main .dir-user .dir-content .user-discuss>div{
+    border-bottom:1px solid #ddd;
+    margin-bottom:10px;
+}
+.product-details  .dels-main .dir-user .dir-content .user-discuss>div:last-child{
+    border:none;
+}
+.product-details  .dels-main .dir-user .dir-content .user-discuss>div>span{
+    color:rgb(127, 24, 34);
+}
+.product-details  .dels-main .dir-user .dir-content .user-discuss>div>p{
+    margin:10px 0;
+}
+.product-details  .dels-main .pro-other{
+    height:40px;
+    line-height:40px;
+    border-top:1px solid #ddd;
+}
+.product-details  .dels-main .pros-detail{
+    display: block;
+    width:90%;
+    color:#333;
+    margin:0 auto 20px;
+}
+.product-details  .dels-main .pros-detail .img-margin{
+    margin:auto;
+}
+.product-details  .dels-main .pros-detail>p{
+    margin-top:10px;
+}
+.product-details .dels-main .side-pro{
+    background:#F4F4F4;
+    border:1px solid transparent;
+}
+.product-details .dels-main .side-pro>p{
+    line-height:28px;
+    padding-left:20px;
+    font-size:13px;
+}
+.product-details .dels-main .side-pro p.top-banner{
+    height:40px;
+    line-height:40px;
+    background:black;
+    font-size:15px;
+    color:#fff;
+    font-weight:700;
+    margin-top:10px;
+    text-align: center;
+    margin-bottom:10px;
+    padding:0;
+}
+.product-details .dels-main .side-pro>h4{
+    font-size:13px;
+    font-weight:700;
+    padding-left:20px;
+    margin-bottom:20px;
+}
+/*.product-details .dels-main .side-pro>ul>li{*/
+    /*padding:0;*/
+    /*box-sizing: border-box;*/
+    /*margin:10px;*/
+/*}*/
+.product-details .dels-main .side-pro .pros-hot{
+    width:100%;
+    margin:auto;
+}
+.product-details .dels-main .side-pro .pros-hot>div{
+    margin-bottom:15px;
+}
+.product-details .dels-main .side-pro .pros-hot .pro-title{
+    margin:10px auto 5px;
+    font-size:12px;
+    color:#666;
+    font-weight:600;
+}
+.product-details .dels-main .side-pro .pros-hot .pro-price{
+    color:#adadad;
+}
+.product-details .dels-main .side-pro .pros-hot>div>img{
+    /*margin:auto;*/
+}
+
+.dels-main .dir-user .dir-menu{
+
+}

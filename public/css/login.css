@@ -1,0 +1,78 @@
+@media only screen and (min-width: 768px) {
+    .login-bic{
+        background:#EFEFEF;
+        padding:40px 0;
+    }
+    .login{
+        background:#fff;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .login-bic{
+        padding:0;
+    }
+}
+@media only screen and (max-width: 767px){
+    .login{
+        width:100%;
+    }
+}
+.login form label{
+    font-size:13px !important;
+    color:#000 !important;
+    font-family: "微软雅黑";
+    font-weight:normal;
+}
+.login form input{
+    background:#F5F5F5;
+    border-color: #CCCCCC;
+    border-radius:0;
+    outline:none;
+
+}
+.login form input:focus{
+    border-color: #AAAAAA;
+    box-shadow: none;
+    background:#fff;
+    outline:none;
+    box-shadow: none;
+}
+.login form span{
+    display: inline-block;
+    padding:5px 10px;
+    background:#D14242;
+    margin-top:10px;
+    border-radius:3px;
+    color:#fff;
+    display:none;
+}
+.login form .btn-group-form{
+    border-top:1px solid #ddd;
+    margin:20px 0 40px;
+}
+.login form .btn-group-form button{
+    margin-top:20px;
+    width:48%;
+    margin-left:1%;
+}
+.login form .btn-group-form .btn-login{
+    background:#B2B2B2;
+    border-color:#B2B2B2;
+    color:#fff;
+}
+.login form .btn-group-form button:hover{
+    border-color:#B2B2B2;
+    background:#B2B2B2;
+    color:#fff;
+}
+.login form .btn-group-form button:focus{
+    outline: none;
+    box-shadow: none;
+    border:1px solid #B2B2B2;
+}
+@media only screen and (max-width: 450px){
+    .login form .btn-group-form button{
+        margin:15px 0 0;
+        width:100%;
+    }
+}

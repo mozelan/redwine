@@ -1,0 +1,191 @@
+@media only screen and (max-width: 767px) {
+    .navbar-screen-other{
+        display:none;
+    }
+    .navbar-screen-xs{
+        background:#440807;
+        color:#dbc7c3;
+        border-bottom:none;
+        padding:0 20px;
+        box-sizing:border-box;
+    }
+    .navbar-brand{
+        float:right;
+    }
+    .navbar-toggle{
+        float:left;
+    }
+    .header-logo{
+        text-align:center;
+        margin-top:10px;
+    }
+
+    #menu{
+        position:fixed;
+        top:50px;
+        left:0;
+        width:30%;
+        background:#510000;
+        overflow:hidden;
+        border:none;
+    }
+    .navbar-nav>li:not(:last-child){
+        padding:0 20px;
+        border-bottom:1px solid #660300;
+    }
+}
+@media only screen and (min-width: 768px){
+    .navbar-screen-xs{
+        display:none;
+    }
+    .navbar{
+        background:#5E0000;
+        border:none;
+        color:#dbc7c3;
+        margin-bottom:0;
+        margin-top:-50px;
+        border-radius:0;
+    }
+    .navbar .navbar-floor1{
+        font-size:12px;
+        height:46px;
+        line-height:46px;
+        border-bottom:1px solid #682725 ;
+    }
+    .navbar .navbar-floor1 ul{
+        display: inline-block;
+    }
+    .navbar .navbar-floor1 p{
+        display: inline-block;
+        margin-left:30px;
+    }
+    .navbar .navbar-floor1 .shopping-cart{
+        float:right;
+        font-size:16px;
+    }
+    .navbar .navbar-floor1 .login-register{
+        float:right;
+        margin-right:20px;
+    }
+    .navbar .navbar-floor1 .login-register>a{
+        margin-right:20px;
+    }
+    .navbar .navbar-floor2{
+        height:90px;
+        line-height:90px;
+    }
+    .navbar .navbar-floor2 .logo{
+        display:inline-block;
+    }
+    .navbar .navbar-floor2 .logo>img{
+        width:150px;
+    }
+    .navbar .navbar-floor2 .search{
+        float:right;
+        margin-top:25px;
+    }
+    .navbar .navbar-floor2 .search .search-input{
+        width:280px;
+        height:38px;
+        border:0;
+        outline:0;
+        box-shadow: none;
+        padding:0 10px;
+        background: #7E3333;
+        color:#AF7875;
+    }
+    .navbar .navbar-floor3{
+        background:#510000;
+        height:52px;
+    }
+    .navbar .navbar-floor3 .nav{
+        border:none;
+        margin-top:10px;
+    }
+    .navbar .navbar-floor3 .nav li{
+        margin-right:10px;
+    }
+    .navbar .navbar-floor3 .nav li>a{
+        color:#AF7875;
+        border:none;
+        border-radius:0;
+    }
+    .navbar .navbar-floor3 .nav li.active>a,
+    .navbar .navbar-floor3 .nav li>a:hover,
+    .navbar .navbar-floor3 .nav li>a:focus{
+        background:#5E0000 ;
+    }
+}
+a,a:hover,a:focus{
+    text-decoration:none;
+    color:#dbc7c3;
+}
+.side-right{
+    position: fixed;
+    top:50%;
+    margin-top:-90px;
+    right:0;
+    z-index: 100;
+}
+.side-right>div{
+    width:54px;
+    height:54px;
+    background: rgb(25, 25, 25);
+    padding:12px;
+}
+.side-right>div>a{
+    display: block;
+    width:30px;
+    height:30px;
+}
+.side-right .phone{
+    background: url(../img/header/pic.png) 30px 0;
+}
+.side-right .connect-qq{
+    background: url(../img/header/pic.png) 30px -40px;
+}
+.side-right .to-top{
+    background: url(../img/header/pic.png) 30px -264px;
+}
+.side-right>div:last-child{
+    background: rgb(127, 24, 34);
+}
+.search-hide{
+    position: fixed;
+    width:90%;
+    height:38%;
+    top:31%;
+    left:5%;
+    background:#fff;
+    padding:30px;
+    display:none;
+}
+.search-hide>p:first-child{
+    font-size:18px;
+    line-height:24px;
+    color:rgb(0, 0, 0);
+}
+.search-hide>input{
+    width:100%;
+    height:50px;
+    line-height:60px;
+    color:#8d9095;
+    background:#ececec;
+    border:1px solid #ececec;
+    margin:20px 0 30px;
+    padding:0 20px;
+}
+.search-hide>input:focus{
+    border:1px solid #ececec;
+    outline:none;
+}
+.search-hide>p:last-child>a{
+    float:right;
+    width:80px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+}
+.search-hide>p:last-child>a:hover{
+    background:#F2F2F2;
+}

@@ -1,0 +1,110 @@
+.main{
+    background: url(../img/news/bac_red.png) no-repeat 0,0;
+    background-size: cover;
+    color:#a09086;
+    font-size:13px;
+    line-height:22px;
+}
+.main .top-title{
+    margin:50px auto;
+}
+.main .top-title>h1{
+    font-size:48px ;
+    color:#fff;
+    margin:0;
+}
+.main .top-title>p{
+    color:#fff;
+}
+@media only screen and (min-width: 992px ){
+    .main .new-main{
+        margin-bottom:80px;
+    }
+}
+@media only screen and (max-width: 991px ){
+    .main .new-main{
+        margin-bottom:0px;
+    }
+}
+.main .new-main>li{
+    display:flex !important;
+    width:100%;
+    border-bottom:1px dotted rgb(119, 82, 82);
+    margin-top:15px;
+}
+.main .new-main>li>div.new-img{
+    width:150px;
+    flex-shrink:0 !important;
+}
+.main .new-main>li>div.new-detail{
+    margin-left:30px;
+    margin-bottom:30px;
+}
+.main .new-main>li>div.new-detail>h4{
+    margin-top:0;
+    font-size:16px;
+    line-height:16px;
+}
+.main .new-main>li>div.new-detail>.new-time{
+    margin-top:15px;
+    margin-bottom:5px;
+}
+
+@media only screen and (max-width: 767px ){
+    .main .new-main>li{
+        display: block !important;
+    }
+    .main .new-main>li>div.new-detail{
+        margin-left:0;
+        margin-top:20px;
+    }
+}
+.main .new-menu>ul{
+    background: #560e00;
+    margin-top:50px;
+    margin-bottom:40px;
+    /*float:right;*/
+}
+@media only screen and (min-width: 1200px ){
+    .main .new-menu>ul{
+        width:280px;
+    }
+}
+@media only screen and (max-width: 991px ) and (min-width: 651px ){
+    .main .new-menu>ul{
+        width:90%;
+    }
+}
+@media only screen and (max-width: 650px ){
+    .main .new-menu>ul{
+        width:100%;
+    }
+}
+.main .new-menu>ul>li{
+    height:43px;
+    line-height:43px;
+    border-bottom: 1px solid #72352b ;
+    text-align: left;
+    padding-left:40px;
+    box-sizing:border-box;
+}
+.main .new-menu>ul>li:last-child{
+    border:none;
+}
+.main .new-menu>ul>li:hover{
+    cursor:pointer;
+}
+.main .new-menu>ul>li>span{
+    display:inline-block;
+    border:5px solid transparent ;
+    border-left:10px solid #a09086;
+    width:0;
+    height:0;
+    margin-right:5px;
+}
+.navbar .navbar-floor3 .nav li{
+    background:#510000;
+}
+.navbar .navbar-floor3 .nav li:nth-child(2){
+    background:#5E0000;
+}

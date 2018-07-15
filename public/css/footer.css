@@ -1,0 +1,79 @@
+/*尾部的样式*/
+.footer{
+    background:#440807;
+    color:#a07165;
+}
+.footer h4{
+    color:#c19c93;
+}
+.footer .media>div{
+    padding:40px 0px;
+    vertical-align:middle;
+}
+.footer .media img{
+    margin-right:5px;
+    vertical-align:middle;
+}
+.footer .media h4,
+.footer .media h4,p{
+    margin:0;
+}
+.footer .foot-hidden>div{
+    border-bottom:1px solid rgba(109,73,42,1);
+}
+.footer .pay-way img{
+    height:34px;
+}
+.footer .server-after>div{
+    margin:40px auto;
+    line-height:28px;
+}
+.footer .server-after>div h4{
+    margin-bottom:20px;
+}
+.footer .server-after>div .logo{
+    margin-bottom:30px;
+}
+.footer .connection{
+    padding:30px 0 10px 0;
+    margin:0;
+}
+.footer .connection>li.white2{
+    width:16px;
+    height:16px;
+    background-image:url(../img/footer/social_icon.png);
+    background-position-y: -96px;
+    margin-right:20px;
+}
+.footer .connection>li.weibo-icon{
+    background-position-x:-16px;
+}
+.footer .connection>li.weixin-icon{
+    background-position-x:0;
+}
+.footer .connection>li.facebook-icon{
+    background-position-x:-64px;
+}
+.footer .connection>li.twitter-icon{
+    background-position-x:-128px;
+}
+.footer .connection>li.linkedin-icon{
+    background-position-x:-96px;
+}
+.footer .connection>li.youtube-icon{
+    background-position-x:-224px;
+}
+.scroll-top{
+    color:#fff;
+    text-decoration: none;
+    position:fixed;
+    width:35px;
+    height:35px;
+    right:20px;
+    top:92%;
+}
+.scroll-top:hover{
+    cursor:pointer;
+    color:#fff;
+    text-decoration: none;
+}

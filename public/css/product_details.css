@@ -218,14 +218,19 @@
     font-size:12px;
     color:#666;
     font-weight:600;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .product-details .dels-main .side-pro .pros-hot .pro-price{
     color:#adadad;
 }
-.product-details .dels-main .side-pro .pros-hot>div>img{
-    /*margin:auto;*/
+.product-details .dels-main .side-pro .pros-hot .img-responsive{
+    margin:auto;
 }
-
-.dels-main .dir-user .dir-menu{
-
+.relate-product p.pro-title{
+    margin:auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

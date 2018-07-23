@@ -60,9 +60,9 @@ app.get("/signout",(req,res)=>{
     req.session.uid=null;
     res.json({msg:'已成功退出'})
 });
+
 app.get('/testuname',(req,res)=>{
     let uname = req.query.uname;
-    console.log(uname);
     let sql="SELECT count(uid) AS c FROM users WHERE uname=?";
     pool.query(sql,[uname],(err,result)=>{
         if(err) throw err;
@@ -95,6 +95,13 @@ app.post("/register",(req,res)=>{
         });
     })
 });
+app.get('/getShowProducts',(req,res)=>{
+    let sql=`SELECT pid,md,price,title FROM products LIMIT 0,8 `;
+    pool.query(sql,(err,result)=>{
+        if(err) throw err;
+        res.json(result);
+    });
+})
 app.get('/getnews',(req,res)=>{
     let assort=req.query.assort;
     let sql=` SELECT * FROM news WHERE assort like '%${assort}%' `;

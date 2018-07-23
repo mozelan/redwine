@@ -103,6 +103,10 @@
     font-size:13px;
     color:#494949;
     margin-bottom:10px;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding:0 10px;
 }
 .navbar .navbar-floor3 .nav li{
     background:#510000;
